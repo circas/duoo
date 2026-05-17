@@ -11,7 +11,7 @@
 
 [rewrite_local]
 ^https?:\/\/(?:[a-zA-Z0-9-]+\.)?duolingo\.[^\/]+\/\d{4}-\d{2}-\d{2}\/users\/ url script-response-body https://raw.githubusercontent.com/eztakesin/duolingo-mitm-lab/refs/heads/main/duolingo_unlimited_hearts_max.js
-^https?:\/\/(?:[a-zA-Z0-9-]+\.)?duolingo\.[^\/]+\/\d{4}-\d{2}-\d{2}\/batch\/ url script-response-body https://raw.githubusercontent.com/eztakesin/duolingo-mitm-lab/refs/heads/main/duolingo_unlimited_hearts_max.js
+^https?:\/\/(?:[a-zA-Z0-9-]+\.)?duolingo\.[^\/]+\/\d{4}-\d{2}-\d{2}\/batch\/ url script-response-body https://raw.githubusercontent.com/circas/duoo/refs/heads/main/duo.js
 [mitm]
 hostname = ios-api-cf.duolingo.com, duolingo.com
 
